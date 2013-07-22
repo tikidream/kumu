@@ -4,7 +4,7 @@ Kumu
 Project Goal
 ----
 
-Ploidy CMS aspires to be the best tool for keeping track of all the information related to creative projects. It is not aimed at content creation, although it will include tools for that. It is primarily aimed at private information storage and management,   solid syncing across devices, transparent storage of files, an ability to publicly publish anything in the library, and solid automated tagging and browsing systems.
+Kumu CMS aspires to be the best tool for keeping track of all the information related to creative projects. It is not aimed at content creation, although it will include tools for that. It is primarily aimed at private information storage and management,   solid syncing across devices, transparent storage of files, an ability to publicly publish anything in the library, and solid automated tagging and browsing systems.
 
 
 Storage Format
@@ -20,7 +20,7 @@ All content in the CMS is provided as Markdown text.  These files can be subdivi
 
 * _Snippets_ are the main data we are storing.  They can be any kind of text, URLs, images, references to published works, etc.
 * _Chrome_ are files which define views for snippets.  They use special syntax to import snippets. Snippets are not directly rendered as HTML; that’s the job for chrome files.
-  * We should ship with several standard views to provide the main Ploidy UI.
+  * We should ship with several standard views to provide the main Kumu UI.
 	* We may need a special template syntax for, e.g., embedding metadata field contents into the chrome or for iterating over all matching snippets.
 * _Media_ are binary data files: images, videos, etc.  They can also have associated markdown files which provide metadata tags for the files.
 
@@ -28,7 +28,7 @@ All content in the CMS is provided as Markdown text.  These files can be subdivi
 Repository Structure
 ----
 
-A given installation of Ploidy will be a git repository with the following folder structure:
+A given installation of Kumu will be a git repository with the following folder structure:
 * chrome: Contains markdown files related to site structure and presentation
 * chrome/css: Contains CSS files included elsewhere
 * chrome/js: Contains JavaScript files included elsewhere

@@ -44,7 +44,7 @@ The[\[c\]](#c-christopher-anderton) complete current supported metadata tags are
 * Subtitle: The subtitle
 * Author: The creator of the document
 * Affiliation: The organization with whom the author created the content
-* Copyright: The copyright string for the document
+* License: The license string for the document, e.g. Copyright, Creative Commons, MIT, Apache, etc.
 * CSS: The stylesheet to include when rendering the document as HTML
 * Date: The last modification date for the content
 * Date-Created: The first modification date for the content
